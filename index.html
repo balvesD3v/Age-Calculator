@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="design/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  <script src="main.js" defer></script>
+  <title>Age calculator app</title>
+  </style>
+</head>
+<body>
+
+  <main class="app">
+    <form action="">
+        <section class="date">
+        <fieldset class="day">
+          <label for="">day</label>
+          <input type="number" placeholder="DD" id="day">
+          <small></small>
+        </fieldset>
+        <fieldset class="month">
+          <label for="">month</label>
+          <input type="number" placeholder="MM" id="month">
+          <small></small>
+        </fieldset>
+        <fieldset class="year">
+          <label for="">year</label>
+          <input type="number" placeholder="YYYY" id="year">
+          <small></small>
+        </fieldset>
+      </section>
+      
+      <div class="submit-block">
+        <hr>
+        <button type="submit" class="submit-btn button"  ><img src="assets/images/icon-arrow.svg" alt=""></button>
+      </div>
+    </form>
+
+    <section class="date-js">
+      <div class="years">
+        <span class="trace" id="years">- -</span> years
+      </div>
+      <div class="months">
+        <span class="trace" id="months">- -</span> months
+      </div>
+      <div class="days">
+        <span class="trace" id="days">- -</span> days
+      </div>
+    </section>
+  </main>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
